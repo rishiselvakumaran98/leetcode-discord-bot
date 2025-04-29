@@ -18,7 +18,7 @@ This Discord bot automatically fetches and posts the top 30 most frequently aske
 ## Installation
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/leetcode-discord-bot.git
+   git clone https://github.com/rishiselvakumaran98/leetcode-discord-bot.git
    cd leetcode-discord-bot
    ```
 2. **Create and activate a virtual environment**
@@ -43,7 +43,7 @@ This Discord bot automatically fetches and posts the top 30 most frequently aske
 ## Running Locally
 With your virtualenv activated and `.env` configured:
 ```bash
-python bot.py
+python Discord_bot.py
 ```
 
 The bot will log in and schedule the weekly job. You should see a console message:
@@ -56,7 +56,7 @@ The bot will log in and schedule the weekly job. You should see a console messag
 ### 1. Virtual Private Server (VPS)
 - Push your code to the server
 - Set up the same `.env` and virtualenv
-- Use `systemd`, `pm2`, or `screen` to keep `bot.py` running
+- Use `systemd`, `pm2`, or `screen` to keep `Discord_bot.py` running
 
 ### 2. Heroku
 1. `heroku login` & `heroku create`
